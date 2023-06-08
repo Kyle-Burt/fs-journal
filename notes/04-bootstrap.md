@@ -29,3 +29,9 @@ links similarly to MDI cdn
                  
 
         .whatever will add class to a div
+
+        @media will allow changes to be made based on screen size *place media rules at the bottom so they are read last in the page and will be applied 
+
+        ex. @media (limiter *max width: 768px will){*css rule* change from orig to new rule set}
+        media rules written work in tandem with BS media rules just match px count for sizing.
+        set parent to position-relative when set column to position-absolutely so that the item is being snapped to it will stay with the relative 
