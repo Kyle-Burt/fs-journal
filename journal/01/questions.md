@@ -6,13 +6,13 @@
     > | to make a directory |
 
 03. What is a ***pseudo-class*** and what are some of the most common ones you think you will use?
-    > | ANSWER HERE |
+    > | define a special state of an element. mouse over |
 
 04. What is ***specificity*** and how might you use it to your benefit?
-    > | ANSWER HERE |
+    > | ANSWER HERE|
 
 05. What problems do you think you could run into if you over-utilized the `!important` feature?
-    > | ANSWER HERE |
+    > | conflict within the code due to the code trying to re and display all important properties |
 
 06. What are the three components that makeup a `CSS` rule? <br> Example:
 
@@ -22,19 +22,19 @@
         }
     ```
 
-    > | ANSWER HERE |
+    > | the element or class rule you want it to make changes to and the element of the rule or rules ie. bg color text color and size/shape |
 
 07. How do you think good design influences people when visiting a website, and what sorts of things could you convey through design alone?
-    > | ANSWER HERE |
+    > | yes, and you can convey the idea of the products/ideas you have for the website |
 
 08. What is the purpose of ***wireframing***?
-    > | ANSWER HERE |
+    > | to help develope the base idea of a website ie. figma |
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
-    > | ANSWER HERE |
+    > | yes, because they give you a chance to see and create the website before having to code and recode anything that you don't like or doesn't flow right within the site |
 
 10. Define the display `:flex property:`
-    > | ANSWER HERE |
+    > | flex property allows you define to way you want the layout of items within the flex box  |
 
 11. What `CSS` properties affect the size of a box model?
-    > | ANSWER HERE |
+    > | box-sizing |
