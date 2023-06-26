@@ -12,13 +12,14 @@
 
   > | REpresentational State Transfer, to transfer a  represented state of requested information to the client calling for the info |
 
-04. What is a callback / higher order function?
+/04. What is a callback / higher order function?
 
-  > | ANSWER HERE |
+  > | callback is a function set to run after a different function, higher order functions take another function in as a arg   |
 
-05. What is a `promise`? How do you capture an error from a `promise`?
+/05. What is a `promise`? How do you capture an error from a `promise`?
 
-  > | ANSWER HERE |
+  > | an object that represents the eventual completion (or failure) of an asynchronous operation
+  try and catch |
 
 /06. Name three processes used to make requests over `HTTP`?
 
