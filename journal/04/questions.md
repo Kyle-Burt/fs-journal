@@ -1,15 +1,16 @@
 # Understanding Asynchronous Code, and API's
-01. What is the difference between `asynchronous` code and `synchronous` code?
+/01. What is the difference between `asynchronous` code and `synchronous` code?
 
-  > | ANSWER HERE |
+  > | asynchronous code is multithreaded *can run multiple programs or functions in parallel* 
+  synchronous is single threaded so it can only run one at a time.  |
 
-02. What is an event listener?
+/02. What is an event listener?
 
-  > | ANSWER HERE |
+  > | a code line that listens for specific change to update the view or html. |
 
-03. What does *REST* stand for, and in simple terms what does it mean??
+/03. What does *REST* stand for, and in simple terms what does it mean??
 
-  > | ANSWER HERE |
+  > | REpresentational State Transfer, to transfer a  represented state of requested information to the client calling for the info |
 
 04. What is a callback / higher order function?
 
@@ -19,13 +20,13 @@
 
   > | ANSWER HERE |
 
-06. Name three processes used to make requests over `HTTP`?
+/06. Name three processes used to make requests over `HTTP`?
 
-  > | ANSWER HERE |
+  > | get, post, delete, put |
 
-07. What does the `API` acronym stand for?
+/07. What does the `API` acronym stand for?
 
-  > | ANSWER HERE |
+  > | Application programming Interface |
 
 08. What must you do in order to `await` a promise inside of a function?
 
