@@ -1,9 +1,9 @@
 # MVC
 
-<!-- SECTION intro-->
+<!-- SECTION intro to MVC *model view controller*-->
 
 MVC - model view controller 
-
+<!-- *NOTE how to create projects in class now -->
 not longer using mkdir to create projects
     bcw create - mvc, 
     don't initialize project can do it through github later
@@ -47,3 +47,45 @@ controller is used to create functions, anything you want exported needs to bo w
 
         listener - AppState.on('coins', _drawCoins)
                     AppState.emit -yells 
+
+
+
+<!--SECTION MVC more rules and functions -->
+    <!-- NOTE API section -->
+    
+    API = application programming interface
+
+    when getting objects from API = 
+        async getMonsters(name){
+        try{
+            
+        }catch (error) {
+            console.error(error)
+            pop.error(error.message)
+        }
+
+    }
+/* NOTE harder way of coding */
+
+    fetch(allows us to make requests from api to receive data)
+    async is need to use await = makes JS freeze until the data/json can be rendered/loaded
+        if getting promise error might help to add await to code so it pauses to render.
+
+/* NOTE axios script done in index. add above /body tag
+    AxiosService.js
+        export const zeldaApi = axios.create({
+            baseURL: 'make it something generic'
+            timeout: 8000, if it takes longer than 8 seconds will throw a message.
+        })
+                /*NOTE - api.crud method
+        const response = zeldaApi.get()
+
+        crud request methods(get, put, post, delete)
+
+        paying attention to scoping. async only has to be made once then await can be used
+
+        /*NOTE - found under network tab
+        status: 200 good response - successfully found request
+                404 error "Page not found" data requested not found.
+                405 error method not allowed
+
