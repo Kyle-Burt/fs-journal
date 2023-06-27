@@ -29,18 +29,18 @@
 
   > | Application programming Interface |
 
-08. What must you do in order to `await` a promise inside of a function?
+/08. What must you do in order to `await` a promise inside of a function?
 
-  > | ANSWER HERE |
+  > | have async in the function  |
 
-09. What is the purpose of encapsulation in programming?
+/09. What is the purpose of encapsulation in programming?
 
-  > | ANSWER HERE |
+  > | to restrict user access |
 
-10. What is `HTTP` response code for a successful request?
+/10. What is `HTTP` response code for a successful request?
 
-  > | ANSWER HERE |
+  > | 200 |
 
-11. What is a 400 error?
+/11. What is a 400 error?
 
-  > | ANSWER HERE |
+  > | Bad Request |
