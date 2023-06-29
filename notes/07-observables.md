@@ -16,4 +16,54 @@ when pulling from an API async, wait / try-catch.
 static get - 
 
 
+/*NOTE - first things to do - 
+    change in env.js to similar links from bcw sandbox
+        -domain url
+        -audience 
+        -client Id
+        -baseUrl
+    
+    make request to api to get info from serve/create another axios if needed 
+        export const dndApi = axios.create({
+            baseURL: 'URL',
+            timeout: 8000
+        })
+
+    make a controller, 
+    export class SpellsController{
+        constructor(){
+            console.log("working)
+            this.getspells()
+        }
+
+        async getSpells(
+            try{
+
+            } catch{
+                console.error(error)
+                pop.error(error.message)
+            }
+        )
+    }
+
+    check if controller is working after replacing values in router and updating index.
+
+
+    make service 
+        class SpellsService {
+    const res = await dndnApi.get('api/spells')
+    console.log('got spells', res.data)
+        }
+        export spellsService = new SpellsService()
+
+        set appstate class
+
+        create a draw function in controller.
+
+    
+
+
+
+
+
 
