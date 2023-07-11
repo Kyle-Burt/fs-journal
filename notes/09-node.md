@@ -29,4 +29,30 @@ add router/ this.router
 new tool postman api platform - get used to working with it because it will be a vital part of the testing process for future projects.
 
 
+<!-- NOTE creating todays project in express-mvc -->
+    do not comment out the lines of code from yesterday
+    .env should never be pushed up to github
+    gitignore is set so you don't push up certain files to github
 
+    monogdb connection - click on DB - drivers - copy connection string paste to connection_string
+
+    database access - to make a password must be HTML safe. click autogen and copy.
+    paste in behind username in string 
+
+    auth0 to get remaining info
+        -applications, applications, myapp/single page application 
+            - get domain, client
+            -api tab/ api audience 
+        go into client copy info in env folder 
+
+    not using crtl ~, use run and debug client 
+
+    once you can get connection copy and slack all the info from .env and env.js to yourself so you never have to do it again. Winning like a boss.
+
+    <!-- NOTE schema = schematic -->
+    schema let you put validation in the back end too. to help fight off the dink's and buttholes of the web *Dark Web!*
+
+    setup order model, DB, controller, service 
+
+    .use(Auth0Provider.getAuthorizedUserInfo) is middlemare 
+    authorization tab, bearer token,
