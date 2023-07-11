@@ -45,7 +45,7 @@ new tool postman api platform - get used to working with it because it will be a
             -api tab/ api audience 
         go into client copy info in env folder 
 
-    not using crtl ~, use run and debug client 
+    using ctrl ~ and use run and debug client 
 
     once you can get connection copy and slack all the info from .env and env.js to yourself so you never have to do it again. Winning like a boss.
 
