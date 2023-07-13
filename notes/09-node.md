@@ -29,7 +29,7 @@ add router/ this.router
 new tool postman api platform - get used to working with it because it will be a vital part of the testing process for future projects.
 
 
-<!-- NOTE creating todays project in express-mvc -->
+<!-- NOTE day2 - creating todays project in express-mvc -->
     do not comment out the lines of code from yesterday
     .env should never be pushed up to github
     gitignore is set so you don't push up certain files to github
@@ -54,5 +54,13 @@ new tool postman api platform - get used to working with it because it will be a
 
     setup order model, DB, controller, service 
 
-    .use(Auth0Provider.getAuthorizedUserInfo) is middlemare 
+    .use(Auth0Provider.getAuthorizedUserInfo) is middleware 
     authorization tab, bearer token,
+
+
+<!-- NOTE day3 node notes -->
+
+UML - unified modeling language 
+
+virtual properties need to be declared in your schemas 
+have a different model, controller, service for each data type.
