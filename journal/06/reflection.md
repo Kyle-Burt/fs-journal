@@ -15,6 +15,6 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 
 --VUE in general. So much info to absorb 
 
---unknown ATM to be honest. haven't even been able to draw anything to the DAMN page yet!!!
+--unknown ATM. To be honest I haven't even been able to draw anything to the DAMN page yet!!!
 
             <!-- NOTE answers end of day Wednesday 7/19/23 -->
