@@ -47,3 +47,14 @@ go back to router.js create new route object
 component: loadPage('must be identical to vue page')
 
 ellis operator true false indicator 
+
+
+<!-- NOTE day4 7-20-23 -->
+
+starting project create function to pull data from setup.
+create service.j page to add layer to website 
+controller *homepage* -> service
+'router-link :to="{name: 'profile', params: {profileId: 'porject.creatorId'}}" params need to match the params stated in router.js, path params 
+
+const route = useRoute()
+const profileId = route.params.profileId
