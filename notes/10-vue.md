@@ -58,3 +58,21 @@ controller *homepage* -> service
 
 const route = useRoute()
 const profileId = route.params.profileId
+
+
+<!-- NOTE 7-24-23 -->
+express-vue to create project.
+postman for this weeks checkpoint
+will need two bearer tokens
+
+postman - import - link 
+setup postman with all tokens needed 
+2 accounts one in normal window, second is incognito window for second account - 2 tokens needed to test against 
+
+must run tests in order of postman tests.
+
+will create data for you. don't change info in the body
+
+create a schema first. models
+register schema - dbcontext.js
+create controller and service 
